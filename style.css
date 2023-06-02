@@ -4,15 +4,43 @@ body {
     flex-direction: column;
 }
 
+.header, .footer, .hero-main-text {
+    background-color: #1F2937;
+}
+
 .header {
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #F9FAF8;
 }
 
 .right-links {
     display: flex;
     list-style-type: none;
     gap: 16px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.call {
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
