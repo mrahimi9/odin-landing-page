@@ -6,6 +6,7 @@ body {
 
 .header, .footer, .hero-main-text {
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .header {
@@ -13,7 +14,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #F9FAF8;
 }
 
 .right-links {
@@ -43,4 +43,10 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
