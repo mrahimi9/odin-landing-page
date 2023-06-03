@@ -36,6 +36,13 @@ body {
     color: #F9FAF8;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
 .call {
     background-color: #3882F6;
 }
