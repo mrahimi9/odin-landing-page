@@ -5,7 +5,7 @@ body {
     flex-direction: column;
 }
 
-.container {
+.body-container {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -44,6 +44,10 @@ body {
     flex: 8;
 }
 
+.title {
+    text-align: center;
+}
+
 .call {
     background-color: #3882F6;
     flex: 1;
@@ -57,11 +61,36 @@ body {
     flex: 1;
 }
 
-.information {
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 80%;
+}
+
+.information-container .info-title {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    flex: 1;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.info-img {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin: 0px 25px;
+}
+
+.info-img img {
+    border: 3px solid #3882F6;
+    border-radius: 12px;
 }
 
 .footer {
