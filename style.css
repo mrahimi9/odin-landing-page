@@ -53,19 +53,43 @@ body {
     flex: 1;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
 .quote {
+    margin: 4em;
+    max-width: 70%;
+}
+
+.quote-text {
     background-color: #E5E7EB;
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
     color: #1F2937;
     flex: 1;
+}
+
+.quote-author {
+    background-color: #E5E7EB;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: right;
 }
 
 .information-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 80%;
+    justify-content: center;
+    flex: 1;
 }
 
 .information-container .info-title {
@@ -73,7 +97,6 @@ body {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    margin: 25px 0px;
 }
 
 .information {
