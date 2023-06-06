@@ -72,11 +72,6 @@ body {
     text-align: center;
 }
 
-.call {
-    background-color: #3882F6;
-    flex: 1;
-}
-
 .quote-container {
     background-color: #E5E7EB;
     display: flex;
@@ -142,6 +137,45 @@ body {
     border: 3px solid #3882F6;
     border-radius: 12px;
     width: 150px;
+}
+
+.call-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    flex: 1;
+    max-width: 80%;
+    margin: 3em 0;
+    padding: 0.5em 4em;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.call-button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.call-button button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 0.5em 2em;
+}
+
+.call-text h1 {
+    margin-bottom: -15px;
 }
 
 .footer {
